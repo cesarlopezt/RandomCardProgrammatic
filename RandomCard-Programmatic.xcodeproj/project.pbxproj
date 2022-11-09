@@ -17,6 +17,7 @@
 		DB58FD3D290810CA007B7F6A /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58FD3C290810CA007B7F6A /* CardSelectionVC.swift */; };
 		DB58FD3F290813F4007B7F6A /* RCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58FD3E290813F4007B7F6A /* RCButton.swift */; };
 		DBF52855291B221E0082BCA1 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF52854291B221E0082BCA1 /* RulesVC.swift */; };
+		DBF52857291B2D910082BCA1 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF52856291B2D910082BCA1 /* CardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DB58FD3C290810CA007B7F6A /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		DB58FD3E290813F4007B7F6A /* RCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCButton.swift; sourceTree = "<group>"; };
 		DBF52854291B221E0082BCA1 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		DBF52856291B2D910082BCA1 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DB58FD0D29080DB8007B7F6A /* SceneDelegate.swift */,
 				DB58FD3C290810CA007B7F6A /* CardSelectionVC.swift */,
 				DB58FD3E290813F4007B7F6A /* RCButton.swift */,
+				DBF52856291B2D910082BCA1 /* CardDeck.swift */,
 				DB58FD1429080DB9007B7F6A /* Assets.xcassets */,
 				DB58FD1629080DB9007B7F6A /* LaunchScreen.storyboard */,
 				DB58FD1929080DB9007B7F6A /* Info.plist */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF52857291B2D910082BCA1 /* CardDeck.swift in Sources */,
 				DB58FD0C29080DB8007B7F6A /* AppDelegate.swift in Sources */,
 				DBF52855291B221E0082BCA1 /* RulesVC.swift in Sources */,
 				DB58FD0E29080DB8007B7F6A /* SceneDelegate.swift in Sources */,
