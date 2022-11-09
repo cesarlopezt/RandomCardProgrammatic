@@ -14,9 +14,9 @@ class CardSelectionVC: UIViewController {
     var cards: [UIImage?] = CardDeck.allValues
     
     let cardImageView = UIImageView()
-    let stopButton = RCButton(backgroundColor: .systemRed, title: "Stop!")
-    let resetButton = RCButton(backgroundColor: .systemGreen, title: "Reset")
-    let rulesButton = RCButton(backgroundColor: .systemBlue, title: "Rules")
+    let stopButton = RCButton(color: .systemRed, title: "Stop!", systemImageName: "stop.circle")
+    let resetButton = RCButton(color: .systemGreen, title: "Reset", systemImageName: "arrow.clockwise.circle")
+    let rulesButton = RCButton(color: .systemBlue, title: "Rules", systemImageName: "list.bullet")
 
     override func viewDidLoad() {
         super.viewDidLoad()
