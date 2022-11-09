@@ -16,6 +16,7 @@
 		DB58FD2F29080DB9007B7F6A /* RandomCard_ProgrammaticUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58FD2E29080DB9007B7F6A /* RandomCard_ProgrammaticUITestsLaunchTests.swift */; };
 		DB58FD3D290810CA007B7F6A /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58FD3C290810CA007B7F6A /* CardSelectionVC.swift */; };
 		DB58FD3F290813F4007B7F6A /* RCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58FD3E290813F4007B7F6A /* RCButton.swift */; };
+		DBF52855291B221E0082BCA1 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF52854291B221E0082BCA1 /* RulesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DB58FD2E29080DB9007B7F6A /* RandomCard_ProgrammaticUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCard_ProgrammaticUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB58FD3C290810CA007B7F6A /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		DB58FD3E290813F4007B7F6A /* RCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCButton.swift; sourceTree = "<group>"; };
+		DBF52854291B221E0082BCA1 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DB58FD0B29080DB8007B7F6A /* AppDelegate.swift */,
+				DBF52854291B221E0082BCA1 /* RulesVC.swift */,
 				DB58FD0D29080DB8007B7F6A /* SceneDelegate.swift */,
 				DB58FD3C290810CA007B7F6A /* CardSelectionVC.swift */,
 				DB58FD3E290813F4007B7F6A /* RCButton.swift */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB58FD0C29080DB8007B7F6A /* AppDelegate.swift in Sources */,
+				DBF52855291B221E0082BCA1 /* RulesVC.swift in Sources */,
 				DB58FD0E29080DB8007B7F6A /* SceneDelegate.swift in Sources */,
 				DB58FD3F290813F4007B7F6A /* RCButton.swift in Sources */,
 				DB58FD3D290810CA007B7F6A /* CardSelectionVC.swift in Sources */,
